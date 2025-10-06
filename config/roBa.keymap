@@ -32,6 +32,11 @@
     combos {
         compatible = "zmk,combos";
 
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <1 2>;
+        };
+
         tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
@@ -40,11 +45,6 @@
         shift_tab {
             bindings = <&kp LS(TAB)>;
             key-positions = <12 13>;
-        };
-
-        muhennkann {
-            bindings = <&to_layer_0 F14>;
-            key-positions = <11 10>;
         };
 
         double_quotation {
