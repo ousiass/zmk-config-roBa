@@ -34,7 +34,7 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <0 1>;
+            key-positions = <10 11>;
         };
 
         tab {
