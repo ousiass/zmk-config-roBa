@@ -13,6 +13,12 @@
 &trackball {
     scroll-layers = <5>;
 
+    trackball_layer_filter: layer_filter {
+        compatible = "zmk,input-processor-layer-filter";
+        layers = <4>;
+        track-only;
+    };
+
     // arrows {
     //     layers = <3>;
     //     bindings =
